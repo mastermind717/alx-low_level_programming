@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - prints a line n chars long
- * @n: number of \
+ * @n: no of times to print \
  *
  * Return: void
  */
