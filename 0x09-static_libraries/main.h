@@ -1,6 +1,5 @@
-#ifndef _HOLBERTON_H_
-
-#define _HOLBERTON_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int _islower(int c);
@@ -22,3 +21,4 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+#endif
