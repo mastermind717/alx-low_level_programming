@@ -1,13 +1,11 @@
 #include <stdio.h>
-
-void print_something(void) __attribute__ ((constructor));
-
+void first(void) __attribute__ ((constructor));
 /**
- *print_something - prints a msg before the main
+ * first - prints a sentence before main
+ * function is executed
  */
-
-void print_something(void)
+void first(void)
 {
-	printf("You're beat! and yet, you must allow,\n"
-	       "I bore my house upon my back!\n");
+printf("You're beat! and yet, you must allow,\n");
+printf("I bore my house upon my back!\n");
 }
