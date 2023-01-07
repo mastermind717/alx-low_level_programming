@@ -705,4 +705,5 @@ julien@ubuntu:~/0x1A. Hash tables$
 -   Directory: `0x1A-hash_tables`
 -   File: `100-sorted_hash_table.c`
 
- Done?
+- Done?
+By: Halima Iyke - Oginah 
